@@ -9,7 +9,7 @@ class ImageSelectorApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Выбор изображения")
-        self.root.geometry("300x200")
+        self.root.geometry("300x210")
 
         self.caption_label = tk.Label(root, text="Выберите изображение и нажмите 'Разукрасить'", font=("Arial", 16))
         self.caption_label.pack()
